@@ -26,10 +26,6 @@
         null
       ],
       [
-        "dot",
-        null
-      ],
-      [
         "json",
         {
           "outputFile": "test-results.json"
@@ -89,12 +85,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1858,
+                  "duration": 1928,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-03-23T18:28:12.985Z",
+                  "startTime": "2025-03-25T01:47:23.219Z",
                   "attachments": []
                 }
               ],
@@ -103,19 +99,11 @@
           ],
           "id": "a70e66fc71f7960f98a1-3f5e95413c268dac6d28",
           "file": "facebook-login.spec.js",
-          "line": 11,
+          "line": 14,
           "column": 5
-        }
-      ]
-    },
-    {
-      "title": "facebook-new-account-url.spec.js",
-      "file": "facebook-new-account-url.spec.js",
-      "column": 0,
-      "line": 0,
-      "specs": [
+        },
         {
-          "title": "Facebook new account - validate the url has login",
+          "title": "Testing fake package",
           "ok": true,
           "tags": [],
           "tests": [
@@ -130,21 +118,37 @@
                   "workerIndex": 1,
                   "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 1205,
+                  "duration": 5,
                   "errors": [],
-                  "stdout": [],
+                  "stdout": [
+                    {
+                      "text": "Sidhu Moose Wala\n"
+                    },
+                    {
+                      "text": "\u001b[31mMary Ford\u001b[39m\n"
+                    },
+                    {
+                      "text": "Mrs. Dalloway\n"
+                    },
+                    {
+                      "text": "Maine Coon\n"
+                    },
+                    {
+                      "text": "Hodkiewicz, Hoppe and Mraz\n"
+                    }
+                  ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-03-23T18:28:12.986Z",
+                  "startTime": "2025-03-25T01:47:23.219Z",
                   "attachments": []
                 }
               ],
               "status": "expected"
             }
           ],
-          "id": "41b8f42eb98b8b7af168-351e77d4fe42acc2cae9",
-          "file": "facebook-new-account-url.spec.js",
-          "line": 8,
+          "id": "a70e66fc71f7960f98a1-29c36ee90974364f8549",
+          "file": "facebook-login.spec.js",
+          "line": 29,
           "column": 5
         }
       ]
@@ -152,8 +156,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-03-23T18:28:12.680Z",
-    "duration": 3126.499,
+    "startTime": "2025-03-25T01:47:22.506Z",
+    "duration": 3430.959,
     "expected": 2,
     "skipped": 0,
     "unexpected": 0,
